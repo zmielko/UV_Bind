@@ -1,0 +1,4 @@
+Protein,Metric,Comparison_X,Comparison_Y,Range_Start,Range_End,Tick_Low,Tick_Medium,Tick_High
+ETS1,Custom,NonUV_r1,NonUV_r2,20,100000,50,2500,50000
+ETS1,Custom,UV_r1,UV_r2,20,20000,50,500,5000
+ETS1,Custom,NonUV_r1,UV_r2,20,100000,50,2500,50000

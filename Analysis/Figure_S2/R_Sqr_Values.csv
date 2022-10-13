@@ -1,0 +1,10 @@
+,Protein,Metric,Experiment_X,Experiment_Y,R_Sqr
+0,ETS1,E-score,NonUV_r1,NonUV_r2,0.697125
+1,ETS1,E-score,UV_r1,UV_r2,0.317543
+2,ETS1,E-score,NonUV_r1,UV_r2,0.353292
+3,ETS1,Z-score,NonUV_r1,NonUV_r2,0.869685
+4,ETS1,Z-score,UV_r1,UV_r2,0.409049
+5,ETS1,Z-score,NonUV_r1,UV_r2,0.475664
+6,ETS1,Custom,NonUV_r1,NonUV_r2,0.990442
+7,ETS1,Custom,UV_r1,UV_r2,0.946049
+8,ETS1,Custom,NonUV_r1,UV_r2,0.835635

@@ -1,0 +1,7 @@
+Protein,Metric,Comparison_X,Comparison_Y,Range_Start,Range_End,Tick_Start,Tick_End,Tick_Step
+ETS1,E-score,NonUV_r1,NonUV_r2,-0.55,0.55,-0.4,0.4,0.2
+ETS1,E-score,UV_r1,UV_r2,-0.55,0.55,-0.4,0.4,0.2
+ETS1,E-score,NonUV_r1,UV_r2,-0.55,0.55,-0.4,0.4,0.2
+ETS1,Z-score,NonUV_r1,NonUV_r2,-6,60,0,50,10
+ETS1,Z-score,UV_r1,UV_r2,-6,25,0,20,5
+ETS1,Z-score,NonUV_r1,UV_r2,-6,40,0,30,10

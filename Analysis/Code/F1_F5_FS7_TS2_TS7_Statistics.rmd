@@ -1,0 +1,99 @@
+---
+title: "Jonckheere Statistical Tests"
+output: html_document
+date: "2022-09-14"
+---
+
+```{r setup}
+library(clinfun)
+library(stringr)
+```
+
+The following code 
+
+```{r Increasing_PyDi}
+DATA_FOLDER <- "../Table_S2"
+OUTPUT_FILE <- "../Table_S2/Table_S2_Jonckheere_Results.csv"
+set.seed(0)
+search_path <- paste(DATA_FOLDER, "/*For_Statistics.csv", sep='')
+headers = paste("File", "Group", "P Value", sep=',')
+write(headers, file = OUTPUT_FILE)
+files <- Sys.glob(search_path)
+for (i in files){
+  print(i)
+  data <- read.table(i, sep=',', header = TRUE)
+  label_subgroups <- str_split(i, '_')
+  n_subgroups <- length(label_subgroups[[1]])
+  column_name = paste(label_subgroups[[1]][[n_subgroups - 5]],
+                      label_subgroups[[1]][[n_subgroups - 4]],
+                      sep='_')
+  grp = label_subgroups[[1]][n_subgroups - 3]
+  dimer = label_subgroups[[1]][n_subgroups -2]
+  test_result <- jonckheere.test(data[[column_name]],
+                                 data[["Count"]],
+                                 alternative = "increasing",
+                                 nperm = 100000)
+  print(test_result)
+  output <- paste(column_name,grp, dimer, test_result$p.value, sep=',')
+  write(output, file = OUTPUT_FILE, append = TRUE)
+}
+
+```
+
+  for (group in GROUPS){
+      test_result <- jonckheere.test(data[[group]],
+                                     data[["Effect_Group"]],
+                                     alternative = "increasing",
+                                     nperm = 1000)
+      data_label <- regmatches(i, regexpr("E.*_by_.*",i))
+      print(group)
+      print(test_result)
+      output <- paste(data_label, group, test_result$p.value, sep=',')
+      write(output, file = OUTPUT_FILE, append = TRUE)
+  }
+```{r a}
+
+#label_subgroups[[1]][[4]]
+n_subgroups <- length(label_subgroups[[1]])
+paste(label_subgroups[[1]][[n_subgroups - 3]], label_subgroups[[1]][[n_subgroups - 2]], sep='_')
+```
+The following code block performs the Jonckheere test for the data used in
+table S5. 
+
+```{r JT_Competition}
+DATA_FOLDER <- "../Table_S5"
+OUTPUT_FILE <- "../Table_S5/Jonckheere_Results.csv"
+GROUPS <- list("ETS1_UV_r1", "ETS1_UV_r2", "ETS1_NUV_r1", "ETS1_NUV_r2")
+set.seed(0)
+search_path <- paste(DATA_FOLDER, "/*_by_*.csv", sep='')
+headers = paste("File", "Group", "P Value", sep=',')
+write(headers, file = OUTPUT_FILE)
+files <- Sys.glob(search_path)
+for (i in files){
+  print(i)
+  data <- read.table(i, sep=',', header = TRUE)
+  for (group in GROUPS){
+      test_result <- jonckheere.test(data[[group]],
+                                     data[["Effect_Group"]],
+                                     alternative = "increasing",
+                                     nperm = 1000000)
+      data_label <- regmatches(i, regexpr("E.*_by_.*",i))
+      print(group)
+      print(test_result)
+      output <- paste(data_label, group, test_result$p.value, sep=',')
+      write(output, file = OUTPUT_FILE, append = TRUE)
+  }
+}
+```
+
+
+```{r test}
+ttable <- read.table("../Table_S5/ETS1_dimer_by_range.csv", sep=',', header=TRUE)
+ttable
+```
+
+
+```{r indtest}
+set.seed(0)
+jonckheere.test(ttable[["ETS1_NUV_r1"]], ttable[["Effect_Group"]],alternative = "increasing",nperm = 1000)
+```

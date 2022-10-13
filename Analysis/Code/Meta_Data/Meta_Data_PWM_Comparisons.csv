@@ -1,0 +1,11 @@
+Protein,Non_UV,UV,Consensus,File_Non_UV,File_UV,Subplot,Figure_Column
+CREB1,CREB1_WC_ID0,CREB1_UV_ID1,TGACGTCA,7mers_pwm.txt,7mers_pwm.txt,1,3
+EGR1,EGR1_WC_ID2,EGR1_UV_ID3,CGCCCACGC,7mers_pwm.txt,7mers_pwm.txt,1,2
+ELK1,ELK1_WC_ID4,ELK1_UV_ID5,TTCC,7mers_pwm.txt,7mers_pwm.txt,0,3
+ETS1,ETS1_WC_ID6,ETS1_UV_ID7,TTCC,7mers_pwm.txt,7mers_pwm.txt,0,2
+GATA1,GATA1_WC_ID12,GATA1_UV_ID13,AGATAA,7mers_pwm.txt,7mers_pwm.txt,1,0
+MITF,MITF_WC_ID36,MITF_UV_ID37,CACGTG,7mers_pwm.txt,7mers_pwm.txt,0,0
+MYC,MYC_WC_ID14,MYC_UV_ID15,CACGTG,7mers_pwm.txt,7mers_pwm.txt,0,1
+P53,P53_WC_ID16,P53_UV_ID17,CATG,pwm_from_top_canonical.txt,7mers_pwm.txt,1,4
+STAT3,STAT3_WC_ID19,STAT3_UV_ID21,TCCCGGA,7mers_pwm.txt,7mers_pwm.txt,0,4
+TBP,TBP_WC_ID26,TBP_UV_ID27,TATAAAAG,7mers_pwm.txt,7mers_pwm.txt,1,1

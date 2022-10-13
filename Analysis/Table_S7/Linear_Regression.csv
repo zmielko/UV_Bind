@@ -1,0 +1,17 @@
+Group,Bin_Method,Experiment,Pvalue
+ETS1_dimer,by_range,ETS1_UV_r1,1.67E-06
+ETS1_dimer,by_range,ETS1_NUV_r1,2.72E-01
+ETS1_dimer,by_range,ETS1_UV_r2,1.18E-06
+ETS1_dimer,by_range,ETS1_NUV_r2,4.76E-03
+ETS1_dimer,by_jnb,ETS1_UV_r1,1.97E-06
+ETS1_dimer,by_jnb,ETS1_NUV_r1,2.56E-01
+ETS1_dimer,by_jnb,ETS1_UV_r2,9.42E-07
+ETS1_dimer,by_jnb,ETS1_NUV_r2,5.50E-03
+ELK1,by_range,ETS1_UV_r1,7.10E-03
+ELK1,by_range,ETS1_NUV_r1,4.95E-01
+ELK1,by_range,ETS1_UV_r2,1.88E-02
+ELK1,by_range,ETS1_NUV_r2,1.03E-01
+ELK1,by_jnb,ETS1_UV_r1,7.51E-03
+ELK1,by_jnb,ETS1_NUV_r1,5.74E-01
+ELK1,by_jnb,ETS1_UV_r2,1.84E-02
+ELK1,by_jnb,ETS1_NUV_r2,1.27E-01

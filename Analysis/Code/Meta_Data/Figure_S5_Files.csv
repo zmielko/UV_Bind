@@ -1,0 +1,5 @@
+Panel,Protein,File_Non_UV,File_UV,Range_Start,Range_End,Ticker_A,Ticker_B,Ticker_C
+A,CREB1,CREB1_WC_ID0_alldata.txt,CREB1_UV_ID1_alldata.txt,25,75000,50,2500,50000
+A,EGR1,EGR1_WC_ID2_alldata.txt,EGR1_UV_ID3_alldata.txt,200,40000,300,3000,30000
+C,CREB1,CREB1_WC_ID38_alldata.txt,CREB1_UV_ID39_alldata.txt,500,110000,1000,10000,100000
+C,EGR1,EGR1_WC_ID40_alldata.txt,EGR1_UV_ID41_alldata.txt,500,110000,1000,10000,100000

@@ -1,0 +1,9 @@
+Scored_Sequence_Group,Protein_Kmer_Source,Condition
+5U01,EGR1,UV
+5U01,EGR1,Non_UV
+5U01,CREB1,UV
+5U01,CREB1,Non_UV
+CREB1,CREB1,UV
+CREB1,CREB1,Non_UV
+EGR1,EGR1,UV
+EGR1,EGR1,Non_UV

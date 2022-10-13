@@ -1,0 +1,5 @@
+Group,Method,Percentile
+ETS1_dimer,by_range,100
+ETS1_dimer,by_jnb,100
+ELK1,by_range,99
+ELK1,by_jnb,99
