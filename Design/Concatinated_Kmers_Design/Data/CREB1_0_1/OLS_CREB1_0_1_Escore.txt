@@ -5,7 +5,7 @@
 # Metric: Escore
 # Alpha: 0.01
 # HCE: HC3
-kmerFwd	kmerRC	Escore_WC8	Escore_WC9	Escore_UV9	Preference_Score	Predicted_WC	Predicted_Std	Confidence_Interval_Lower	Confidence_Interval_Upper
+kmerFwd	kmerRC	Escore_WC8	Escore_WC9	Escore_UV9	Preference_Score	Predicted_WC	Predicted_Std	Prediction_Interval_Lower	Prediction_Interval_Upper
 AAAAAA	TTTTTT	0.004730	0.067030	0.312450	-4.290248	0.001982	0.072366	-0.184592	0.188556
 AAAAAC	GTTTTT	-0.024380	0.099990	0.286070	-4.278942	-0.023580	0.072366	-0.210154	0.162994
 AAAAAG	CTTTTT	0.070020	0.050290	0.227060	0.000000	0.059314	0.072368	-0.127264	0.245892

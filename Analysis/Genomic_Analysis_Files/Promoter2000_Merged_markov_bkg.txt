@@ -1,0 +1,7 @@
+# 0-order Markov frequencies from file /home/zmielko/Documents/UV_Project/PNAS/Analysis/Figure_SX/Promoter2000_Merged.fasta
+# seqs: 20628    min: 2000    max: 7525    avg: 2227.2    sum: 45942729    alph: DNA
+# order 0
+A 2.528e-01
+C 2.472e-01
+G 2.472e-01
+T 2.528e-01

@@ -1,0 +1,11 @@
+Protein,Primary_UV_PWM_Divergence,Secondary_UV_PWM_Divergence,Tertiary_UV_PWM_Divergence,Minimum_Divergence_UV_PWM
+CREB1,0.142279,15.875167,7.645407,Primary_UV_PWM_Divergence
+EGR1,0.820786,8.044931,20.878941,Primary_UV_PWM_Divergence
+ELK1,2.332379,2.386468,0.818920,Tertiary_UV_PWM_Divergence
+ETS1,2.114235,3.386483,2.248586,Primary_UV_PWM_Divergence
+GATA1,1.207990,7.822328,3.063866,Primary_UV_PWM_Divergence
+MITF,0.323886,11.911704,3.226237,Primary_UV_PWM_Divergence
+MYC,0.535021,9.093012,5.704748,Primary_UV_PWM_Divergence
+P53,0.112532,7.173625,4.837881,Primary_UV_PWM_Divergence
+STAT3,1.835290,6.298367,6.711163,Primary_UV_PWM_Divergence
+TBP,1.985520,9.625417,5.383477,Primary_UV_PWM_Divergence

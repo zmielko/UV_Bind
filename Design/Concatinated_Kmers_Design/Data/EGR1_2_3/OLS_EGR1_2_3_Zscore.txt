@@ -5,7 +5,7 @@
 # Metric: Zscore
 # Alpha: 0.01
 # HCE: HC3
-kmerFwd	kmerRC	Zscore_WC8	Zscore_WC9	Zscore_UV9	Preference_Score	Predicted_WC	Predicted_Std	Confidence_Interval_Lower	Confidence_Interval_Upper
+kmerFwd	kmerRC	Zscore_WC8	Zscore_WC9	Zscore_UV9	Preference_Score	Predicted_WC	Predicted_Std	Prediction_Interval_Lower	Prediction_Interval_Upper
 AAAAAA	TTTTTT	-0.401300	0.144100	1.469800	0.000000	-0.385448	1.067525	-3.137738	2.366842
 AAAAAC	GTTTTT	-0.275000	0.269900	1.317400	0.000000	-0.236188	1.067507	-2.988431	2.516055
 AAAAAG	CTTTTT	0.766300	0.611400	1.080700	0.000000	0.994413	1.067557	-1.757959	3.746784
